@@ -26,6 +26,7 @@ def fill_arithmetic_progression(length, initial_term, difference):
     return arith_list
 
 
+
 a_1 = read_int('Укажите первый элемент арифметической прогрессии: ')
 d = read_int('Укажите разность арифметической прогрессии: ')
 size = read_int('Укажите количество элементов в арифметической прогрессии: ')

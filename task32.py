@@ -28,7 +28,7 @@ def indexes_in_range(list_1, left_range, right_range):
     indexes = list()
     
     for i in range(len(list_1)):
-        if list_1[i] >= left_range and list_1[i] <= right_range:
+        if left_range <= list_1[i] <= right_range:
             indexes.append(i)
     
     return indexes
